@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #034153;
+  color: #dddddd;
+}
+
+#header {
+  background-color: #434343;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1.5%;
+  overflow: hidden;
+}
+
+#header a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #dddddd;
+}
+
+#header a:visited {
+  color: #dddddd;
+}
+
+#header a:active {
+  color: #dddddd;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 9.5%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #434343;
+}
+
+.indexMain {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.indexMain .encabezado {
+  margin-left: 2%;
+}
+
+.indexMain .encabezado .encabezado__h1 {
+  color: #71a2b0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.indexMain .encabezado .encabezado__h2 {
+  color: #b2b2b2;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.indexMain .relleno {
+  margin-top: 2%;
+  margin-bottom: -3%;
+}
+
+.indexMain .relleno .relleno__lista {
+  list-style-type: none;
+  margin-bottom: 7%;
+  display: inline-block;
+}
+
+.indexMain .relleno .relleno__lista .relleno__h3 {
+  color: #71a2b0;
+  font-size: 16px;
+  font-weight: lighter;
+  display: inline;
+  margin-left: 1%;
+}
+
+.indexMain .relleno .relleno__lista p {
+  margin-left: 5.9%;
+  font-weight: lighter;
+}
+
+.indexMain .lista {
+  margin-top: -5%;
+  margin-bottom: -7%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: lighter;
+}
+
+.indexMain .lista .lista__1,
+.indexMain .lista .lista__2,
+.indexMain .lista .lista__3 {
+  line-height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

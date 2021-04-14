@@ -1,0 +1,70 @@
+$color-titulos: #71a2b0;
+$color-textos: #b2b2b2;
+$fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$font-init: 30px;
+
+@mixin ligtherFont {
+  font-weight: lighter;
+}
+
+@mixin normalFont {
+  font-weight: normal;
+}
+
+.indexMain {
+  font-family: $fuente;
+
+  .encabezado {
+    margin-left: 2%;
+
+    .encabezado__h1 {
+      color: $color-titulos;
+      font-size: $font-init;
+      @include normalFont();
+    }
+
+    .encabezado__h2 {
+      color: $color-textos;
+      font-size: ($font-init)-10px;
+      @include ligtherFont();
+    }
+  }
+
+  .relleno {
+    margin-top: 2%;
+    margin-bottom: -3%;
+
+    .relleno__lista {
+      list-style-type: none;
+      margin-bottom: 7%;
+      display: inline-block;
+
+      .relleno__h3 {
+        color: $color-titulos;
+        font-size: ($font-init)-14px;
+        @include ligtherFont();
+        display: inline;
+        margin-left: 1%;
+      }
+
+      p {
+        margin-left: 5.9%;
+        @include ligtherFont();
+      }
+    }
+  }
+
+  .lista {
+    margin-top: -5%;
+    margin-bottom: -7%;
+    justify-content: center;
+    @include ligtherFont();
+
+    .lista__1,
+    .lista__2,
+    .lista__3 {
+      line-height: 50px;
+    }
+  }
+}

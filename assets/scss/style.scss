@@ -1,0 +1,19 @@
+$color-fondo: #034153;
+$color-texto: #dddddd;
+$color-headerfooter: #434343;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-fondo;
+  color: $color-texto;
+}
+
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'contacto';
