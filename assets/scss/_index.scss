@@ -55,15 +55,15 @@ $font-init: 30px;
     }
   }
 
-  .lista {
+  .indexLista {
     margin-top: -5%;
     margin-bottom: -7%;
     justify-content: center;
     @include ligtherFont();
 
-    .lista__1,
-    .lista__2,
-    .lista__3 {
+    .indexLista__1,
+    .indexLista__2,
+    .indexLista__3 {
       line-height: 50px;
     }
   }
