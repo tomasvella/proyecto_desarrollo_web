@@ -4,14 +4,11 @@ $color-fondo: #434343;
 $color-hover: #dddddd;
 
 #footer {
-  position: fixed;
-  @media (max-width: 768px) {
-    position: relative;
-  }
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-top: 9.5%;
+  margin-top: 3%;
   overflow: hidden;
   font-family: $fuente;
   background-color: $color-fondo;
