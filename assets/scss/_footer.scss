@@ -8,8 +8,8 @@ $color-hover: #dddddd;
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-top: 3%;
-  overflow: hidden;
+  margin-top: 0%;
+  overflow-x: hidden;
   font-family: $fuente;
   background-color: $color-fondo;
 
@@ -19,7 +19,7 @@ $color-hover: #dddddd;
     &:hover {
       color: $color-hover;
       overflow: hidden;
-      // Se agrega un slide hacia la derecha cuando se posiciona encima.
+      // Se agrega un slide hacia la derecha cuando se posiciona encima del mail o del telefono.
       -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
         both;
       animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

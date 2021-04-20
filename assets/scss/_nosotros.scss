@@ -6,9 +6,10 @@ $fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 .nosotrosMain {
   margin-top: -1.5%;
 
-  .nosotrosImg1 {
-    -webkit-animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  .nosotrosImg {
+    height: 84vh;
+    -webkit-animation: fade-in-left 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in-left 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     @-webkit-keyframes fade-in-left {
       0% {
         -webkit-transform: translateX(-50px);
@@ -36,8 +37,9 @@ $fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
   }
 
   .nosotrosBox {
-    -webkit-animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    padding: 0% 35px;
+    -webkit-animation: fade-in-right 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in-right 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     @-webkit-keyframes fade-in-right {
       0% {
         -webkit-transform: translateX(50px);
@@ -63,8 +65,12 @@ $fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
       }
     }
 
-    .encabezadoMain {
+    .nosotrosEncabezado {
       color: $color-titulos;
+    }
+
+    .lead {
+      margin-top: 30px;
     }
 
     .nosotrosTexto {
@@ -97,7 +103,7 @@ $fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
       }
     }
 
-    .cierreMain {
+    .nosotrosCierre {
       color: $color-titulos;
       text-align: center;
       margin-top: 2%;
