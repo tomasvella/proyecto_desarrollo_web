@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Tomás Federico Vella" />
-        <title>¿Quienes somos? / ACME - Soluciones Informáticas</title>
+        <title>¿Quienes somos? | ACME - Soluciones Informáticas</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/style.css">
@@ -21,9 +21,7 @@
         <header class="sticky-top" id="header">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a href="index.html" title="">
-                        <img alt="logo" src="../assets/img/logocompletoclean.png" />
-                    </a>
+                    <img alt="logo" src="../assets/img/logocompletoclean.png" class="headerImg">
                     <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -35,7 +33,7 @@
                                 <a class="nav-link active" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="../pages/nosotros.html">QUIENES SOMOS</a>
+                                <a class="nav-link active" href="../pages/nosotros.html">QUIÉNES SOMOS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="../pages/mision.html">NUESTRA MISIÓN</a>
@@ -55,19 +53,72 @@
             </nav>
         </header>
 
+        <main class="nosotrosMain">
+            <img src="../assets/img/nosotros.jpg" alt="Imagen de un servidor."
+                class="nosotrosImg img-fluid col-lg-4 col-xs-12 d-none d-lg-block rounded float-start me-5">
+            <div class="container-fluid nosotrosBox">
+                <p class="nosotrosEncabezado display-1">¿Quiénes somos?</p>
+                <p class="lead">Somos una de las Pymes con mayor proyección del sector. Iniciamos actividades en el
+                    año 2005 como
+                    soporte
+                    para una start-up la cual confió en nosotros y hoy en día se convirtió en una de las empresas de
+                    telecomunicaciones más importantes del sector.</p>
+                <p class="nosotrosTexto">A partir de ese momento nos dimos cuenta que teníamos un potencial el
+                    cual
+                    había que explotar, es
+                    por
+                    esto que decidimos salir a buscar inversiones en <a class="kickstarter"
+                        href="https://www.kickstarter.com/?lang=es" target="_blank">Kickstarter</a>. Obtuvimos mucho
+                    apoyo de la gente,
+                    posibilitándonos la expansión tanto dentro del país como por fuera, ya que tenemos clientes en
+                    15 países:</p>
+                <div class="nosotrosLista col-xs-12 d-flex flex-wrap mx-auto">
+                    <ul class="nosotrosLista__1">
+                        <li>Argentina</li>
+                        <li>Brasil</li>
+                        <li>Chile</li>
+                        <li>Colombia</li>
+                        <li>España</li>
+                    </ul>
+                    <ul class="nosotrosLista__2">
+                        <li>Estados Unidos</li>
+                        <li>México</li>
+                        <li>Panamá</li>
+                        <li>Perú</li>
+                        <li>Puerto Rico</li>
+                    </ul>
+                    <ul class="nosotrosLista__3">
+                        <li>Reino Unido</li>
+                        <li>Serbia</li>
+                        <li>Suecia</li>
+                        <li>Suiza</li>
+                        <li>Uruguay</li>
+                    </ul>
+                </div>
+                <p class="nosotrosTexto">Hoy estamos posicionados como una de las empresas líderes del sector, con
+                    capacidad de brindar respuesta y solución 24/7. Esto no hubiese sido posible gracias a nuestro <a
+                        href="./staff.html">equipo de trabajo</a>, pero sin nuestros <a
+                        href="./clientes.html">clientes</a> no tendía sentido.</p>
+                <p class="nosotrosTexto">Es por esto que te invitamos a confiar en nosotros y te pongas en contacto a
+                    través de la pestaña
+                    "Contacto", o bien clickeando <a href="./contacto.html">acá</a>.</p>
+                <p class="nosotrosCierre display-1">¡Gracias por tu confianza!</p>
+            </div>
+        </main>
+
         <footer id="footer">
             <div class="container-fluid">
-                <div class="row my-auto">
+                <div class="row">
                     <div class="contacto col-lg-3 col-md-4 col-sm-12 col-xs-12 my-auto">
                         <div
                             class="contactoTel d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
                             <img src="../assets/img/phone.png" alt="" class="phone my-auto mx-sm-2">
-                            <p class="telefono my-auto">+54 11-1111-1111</p>
+                            <a href="tel:+541111111111" class="telefono my-auto">+54 11-1111-1111</a>
                         </div>
                         <div
                             class="contactoMail d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
                             <img src="../assets/img/mail.png" alt="Mail" class="mail my-auto mx-sm-2">
-                            <p class="correo my-auto">contacto@acme.com</p>
+                            <a href="mailto:contacto@acme.com" class="correo my-auto">contacto@acme.com</a>
                         </div>
                     </div>
                     <div class="logo col-lg-6 col-md-4 col-sm-12 col-xs-12">

@@ -20,11 +20,9 @@
 
     <body>
         <header class="sticky-top" id="header">
-            <nav class="navbar navbar-expand-lg navbar-dark max-width">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a href="index.html" title="">
-                        <img alt="logo" src="./assets/img/logocompletoclean.png" />
-                    </a>
+                    <img alt="logo" src="../assets/img/logocompletoclean.png" class="headerImg">
                     <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -33,22 +31,22 @@
                     <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo02">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" href="./index.html">INICIO</a>
+                                <a class="nav-link active" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/nosotros.html">QUIENES SOMOS</a>
+                                <a class="nav-link active" href="../pages/nosotros.html">QUIÉNES SOMOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/mision.html">NUESTRA MISIÓN</a>
+                                <a class="nav-link active" href="../pages/mision.html">NUESTRA MISIÓN</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/clientes.html">CLIENTES SATISFECHOS</a>
+                                <a class="nav-link active" href="../pages/clientes.html">CLIENTES SATISFECHOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/staff.html">NUESTRO STAFF</a>
+                                <a class="nav-link active" href="../pages/staff.html">NUESTRO STAFF</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/contacto.html">CONTACTANOS</a>
+                                <a class="nav-link active" href="../pages/contacto.html">CONTACTANOS</a>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +54,7 @@
             </nav>
         </header>
 
-        <img src="./assets/img/index1.jpg" alt="Imagen 1"
+        <img src="./assets/img/index.jpg" alt="Imagen de una persona programando."
             class="indexImg img-fluid col-lg-4 col-xs-12 d-none d-lg-block rounded float-end me-5">
 
         <main class="indexMain container-fluid col-12">
@@ -71,7 +69,7 @@
             <div class="relleno">
                 <ul class="relleno__lista">
                     <li>
-                        <img src="./assets/img/check.png" alt="Check" class="relleno__checkImg">
+                        <img src="./assets/img/check.png" alt="Imagen de un check." class="relleno__checkImg">
                         <h3 class="relleno__h3">CALIDAD</h3>
                         <p>
                             Con la tecnología líder en el mercado, podemos abastecer de la calidad
@@ -80,7 +78,7 @@
                     </li>
 
                     <li>
-                        <img src="./assets/img/check.png" alt="Check" class="relleno__checkImg">
+                        <img src="./assets/img/check.png" alt="Imagen de un check." class="relleno__checkImg">
                         <h3 class="relleno__h3">COMPROMISO</h3>
                         <p>
                             Especialistas capacitados que brindan soporte las 24 hs, los 365 días del
@@ -89,7 +87,7 @@
                     </li>
 
                     <li>
-                        <img src="./assets/img/check.png" alt="Check" class="relleno__checkImg">
+                        <img src="./assets/img/check.png" alt="Imagen de un check." class="relleno__checkImg">
                         <h3 class="relleno__h3">CONFIANZA</h3>
                         <p>
                             Como consecuencia de las anteriores queremos generar satisfacción hacia
@@ -100,22 +98,22 @@
                 </ul>
             </div>
 
-            <div class="lista col-xs-12 d-flex flex-wrap gap-3 mx-auto">
-                <ul class="lista__1">
+            <div class="indexLista col-xs-12 d-flex flex-wrap gap-3 mx-auto">
+                <ul class="indexLista__1">
                     <li>Instalación de servidores.</li>
                     <li>Configuración inicial.</li>
                     <li>Active directory.</li>
                     <li>Cloud Back-up.</li>
                     <li>Antivirus.</li>
                 </ul>
-                <ul class="lista__2">
+                <ul class="indexLista__2">
                     <li>Configuración de CPU.</li>
                     <li>Mantenimiento de CPU.</li>
                     <li>Mesa de ayuda 24/7.</li>
                     <li>Soporte remoto.</li>
                     <li>Panel de control.</li>
                 </ul>
-                <ul class="lista__3">
+                <ul class="indexLista__3">
                     <li>Provisión de hardware.</li>
                     <li>Soporte en Elasticache.</li>
                     <li>Asesoramiento Auto Sacling</li>
@@ -131,17 +129,18 @@
                     <div class="contacto col-lg-3 col-md-4 col-sm-12 col-xs-12 my-auto">
                         <div
                             class="contactoTel d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
-                            <img src="./assets/img/phone.png" alt="" class="phone my-auto mx-sm-2">
-                            <p class="telefono my-auto">+54 11-1111-1111</p>
+                            <img src="./assets/img/phone.png" alt="Ícono de un teléfono" class="phone my-auto mx-sm-2">
+                            <a href="tel:+541111111111" class="telefono my-auto">+54 11-1111-1111</a>
                         </div>
                         <div
                             class="contactoMail d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
-                            <img src="./assets/img/mail.png" alt="Mail" class="mail my-auto mx-sm-2">
-                            <p class="correo my-auto">contacto@acme.com</p>
+                            <img src="./assets/img/mail.png" alt="Ícono de un sobre." class="mail my-auto mx-sm-2">
+                            <a href="mailto:contacto@acme.com" class="correo my-auto">contacto@acme.com</a>
                         </div>
                     </div>
                     <div class="logo col-lg-6 col-md-4 col-sm-12 col-xs-12">
-                        <img src="./assets/img/logocompletoclean.png" alt="ACME" class="footerImg mx-auto d-block">
+                        <img src="./assets/img/logocompletoclean.png" alt="Logo de la empresa."
+                            class="footerImg mx-auto d-block">
                     </div>
                     <div class="derechos col-lg-3 col-md-4 col-sm-12 col-xs-12 my-auto">
                         <p class="derechosTexto d-flex justify-content-lg-end justify-content-center my-auto">

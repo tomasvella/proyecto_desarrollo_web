@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Tomás Federico Vella" />
-        <title>Nuestra Misión / ACME - Soluciones Informáticas</title>
+        <title>Nuestra Misión | ACME - Soluciones Informáticas</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/style.css">
@@ -23,9 +23,7 @@
         <header class="sticky-top" id="header">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a href="index.html" title="">
-                        <img alt="logo" src="../assets/img/logocompletoclean.png" />
-                    </a>
+                    <img alt="logo" src="../assets/img/logocompletoclean.png" class="headerImg">
                     <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -37,7 +35,7 @@
                                 <a class="nav-link active" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="../pages/nosotros.html">QUIENES SOMOS</a>
+                                <a class="nav-link active" href="../pages/nosotros.html">QUIÉNES SOMOS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="../pages/mision.html">NUESTRA MISIÓN</a>
@@ -57,19 +55,87 @@
             </nav>
         </header>
 
+        <main>
+            <img src="../assets/img/mision.jpg" alt="Imagen de analytics."
+                class="misionImg img-fluid col-lg-12 col-xs-12 d-none d-lg-block rounded">
+            <div class="container-fluid misionBox">
+                <h1 class="display-1 misionEncabezado col-lg-8">¿Por qué elegirnos?</h1>
+                <p class="lead">Porque somos sinónimo de garantía. Hoy en día ninguna compañía tiene los niveles de
+                    satisfacción en posventa que manejamos nosotros.</p>
+                <p class="misionTexto col-lg-8">En los tiempos que corren todos podemos cumplir con los requerimientos
+                    que una
+                    compañía necesita para poder producir, pero ninguna tiene un enfoque basado en la posventa y la
+                    satisfacción. Es por eso que nosotros nos capacitamos constantemente en lo que se conoce como NPS
+                    (Net Promoter Score). Esto mide los niveles de satisfacción de los clientes para con la compañía, a
+                    través de encuestas que hacemos todos los meses para tener los índices en el menor tiempo posible, y
+                    a partir de ahí poder accionar sobre los puntos a mejorar sobre nuestro servicio y/o atención.</p>
+                <p class="misionTexto col-lg-8">Nuestros 3 objetivos como compañía son:</p>
+                <div class="accordion accordion-flush col-lg-8" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Análisis de necesidad.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Nos contactamos directamente para pactar una reunión, en donde
+                                nos encargamos de detectar cuáles son las necesidades y a partir de ahí armar un plan de
+                                acción de los servicios a brindar.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Presupuestos adaptados.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Entendemos los diferentes contextos que conllevan a las empresas
+                                a poder amortizar de la mejor forma los costos, es por esto que nosotros nos podemos
+                                adaptar a las diferentes empresas armando presupuestos acordes y sin descuidar nuestra
+                                calidad como compañía.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Atención y soporte posventa.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Te damos garantía de servicio, además de atención 24/7 los 365
+                                días del año con nuestros asesores especializados para poder ayudarte ante una
+                                emergencia. Llevamos un registro de los incidentes, y a partir de ahí planeamos
+                                estrategias de soluciónes automatizadas para poder dar soporte sin tener que generar un
+                                recontacto.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
         <footer id="footer">
             <div class="container-fluid">
-                <div class="row my-auto">
+                <div class="row">
                     <div class="contacto col-lg-3 col-md-4 col-sm-12 col-xs-12 my-auto">
                         <div
                             class="contactoTel d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
                             <img src="../assets/img/phone.png" alt="" class="phone my-auto mx-sm-2">
-                            <p class="telefono my-auto">+54 11-1111-1111</p>
+                            <a href="tel:+541111111111" class="telefono my-auto">+54 11-1111-1111</a>
                         </div>
                         <div
                             class="contactoMail d-flex align-content-center gap-lg-3 justify-content-lg-start justify-content-md-start justify-content-center">
                             <img src="../assets/img/mail.png" alt="Mail" class="mail my-auto mx-sm-2">
-                            <p class="correo my-auto">contacto@acme.com</p>
+                            <a href="mailto:contacto@acme.com" class="correo my-auto">contacto@acme.com</a>
                         </div>
                     </div>
                     <div class="logo col-lg-6 col-md-4 col-sm-12 col-xs-12">
