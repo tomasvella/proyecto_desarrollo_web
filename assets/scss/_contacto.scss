@@ -1,0 +1,33 @@
+$color-titulos: #71a2b0;
+$color-textos: #b2b2b2;
+$fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.contactoMain {
+  margin-top: 2%;
+  margin-bottom: 5vh;
+
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .contactoTitulo {
+    color: $color-titulos;
+    margin-bottom: 5vh;
+  }
+}
